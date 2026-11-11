@@ -89,3 +89,22 @@ form .btn {
     justify-content: center;
     height: 100px;
 }
+
+ul .btn {
+    font-size: var(--fs-p);
+    height: fit-content;
+    border-style: solid;
+    background-color: transparent;
+    padding: var(--space-1) var(--space-2);
+}
+
+.subcontainer .btn {
+    align-items: center;
+    height: var(--space-1);
+    padding: var(--space-2);
+}
+
+#filtericon {
+    height: 100%;
+    border-color: transparent;
+}
