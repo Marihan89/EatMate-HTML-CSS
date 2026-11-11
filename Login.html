@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>EatMate..your Mate</title>
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        />
+        <link rel="stylesheet" href="css/variables.css" />
+        <link rel="stylesheet" href="css/base.css" />
+        <link rel="stylesheet" href="css/layout.css" />
+        <link rel="stylesheet" href="css/formpage.css" />
+        <link rel="stylesheet" href="css/components.css" />
+    </head>
+    <body class="formpage">
+        <header></header>
+        <main>
+            <section id="contentHeading">
+                <h1>Welcome Back !</h1>
+                <p>Log in to continue your tasty journey</p>
+            </section>
+            <section id="content">
+                <form>
+                    <div class="formfield">
+                        <label for="mail">E-mail</label>
+                        <div class="field-input">
+                            <i
+                                class="fa-solid fa-envelope"
+                                style="color: #604735"
+                            ></i>
+                            <input
+                                type="email"
+                                id="mail"
+                                placeholder="Enter Your Mail "
+                                required
+                            />
+                        </div>
+                    </div>
+                    <div class="formfield">
+                        <label for="password">Password</label>
+                        <div class="field-input">
+                            <i
+                                class="fa-solid fa-unlock-keyhole"
+                                style="color: var(--color-primary)"
+                            ></i>
+                            <input
+                                type="password"
+                                id="password"
+                                placeholder="Enter password"
+                                required
+                            />
+                        </div>
+                    </div>
+                    <fieldset>
+                        <div>
+                            <input type="checkbox" id="rememberme" />
+                            <label for="rememberme">Remember Me</label>
+                        </div>
+                        <div>
+                            <a href="index.html">Forgot your Password ?</a>
+                        </div>
+                    </fieldset>
+                    <button class="btn" id="login">Login</button>
+                </form>
+            </section>
+            <section id="contentDetails">
+                <nav>
+                    <ul>
+                        <li>
+                            <a
+                                href="https://www.facebook.com/"
+                                aria-label="Visit us on Facebook"
+                                target="_blank"
+                            >
+                                <i class="bi bi-facebook"> </i
+                            ></a>
+                        </li>
+                        <li>
+                            <a
+                                href="https://www.instagram.com/"
+                                aria-label="Visit us on Instagram"
+                                target="_blank"
+                                ><i class="bi bi-instagram"></i
+                            ></a>
+                        </li>
+                    </ul>
+                </nav>
+            </section>
+        </main>
+
+        <footer></footer>
+    </body>
+</html>

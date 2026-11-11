@@ -1,0 +1,75 @@
+:root {
+    /* page variables */
+
+    /*---------------------------- Colors------------------- */
+    --color-bg: #f9f5ef;
+    --color-primary: #604735;
+    --color-secondary: #e5b98c;
+    --color-tertiary: #f6e6cd;
+    --color-body-text: #352920;
+    --color-darktheme-text: #f3f3f3;
+
+    --login-bg-img: url('../images/login.jpeg');
+
+    /*---------------------------- Headings------------------- */
+
+    --color-headings: var(--color-primary);
+
+    /* semantic */
+    --color-disbaled: #b9a99c;
+    --color-success: #042b0e;
+    --color-failure: #641616;
+    --color-info: #356acd;
+
+    --color-sidemenu-text: var(--color-primary);
+    --color-sidemenu-bg: var(--color-tertiary);
+
+    --color-link-hover: #7a4a00;
+
+    --color-card-border: var(--color-primary);
+    --color-card-bg: #ffffff;
+    --color-card-text: #000000;
+
+    /* Buttons*/
+    --color-formbtn-bg: var(--color-primary);
+    --color-formbtn-text: #f3f3f3;
+    --color-formbtn-hover: #f6e6cd;
+    --color-btn-bg: var(--color-secondary);
+    --color-btn-text: var(--color-primary);
+
+    /* Form */
+    --color-fieldset-border: var(--color-primary);
+    --color-fields-bg: #faf3ee;
+    --color-field-focus: #1a73e8;
+    --color-field-border: #895e3f;
+
+    /*---------------------------- Typography------------------- */
+    --font-body:
+        Arial, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+    --font-heading: Georgia, 'Times New Roman', serif;
+    --fs-h1: var(--space-4);
+    --fs-h2: var(--space-3);
+    --fs-btn: calc(var(--space-2) * 1.5);
+    --fs-p: calc(var(--space-2) * 1.25);
+
+    /*---------------------------- Spacing------------------- */
+
+    /* Using PX
+    --space-1: 8px;
+    --space-2: 16px;
+    --space-3: 24px;
+    --space-4: 32px;
+    --space-5: 48px;
+*/
+    /* using rem */
+
+    --space-1: 0.5rem; /* 8px */
+    --space-2: 1rem; /* 16px */
+    --space-3: 1.5rem; /* 24x */
+    --space-4: 2rem; /* 32px */
+    --space-5: 3rem; /* 48px */
+
+    /*---------------------------- Radius ------------------- */
+
+    --radius-3: 25px;
+}

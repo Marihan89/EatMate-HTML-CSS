@@ -1,0 +1,91 @@
+header img {
+    width: 70px;
+    height: 100%;
+}
+
+/* ________________________________Form______________________________________ */
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: var(--space-1);
+    width: 100%;
+    padding: 0 var(--space-1);
+}
+
+form label {
+    grid-column: 1;
+    text-align: end;
+}
+form .field-input {
+    grid-column: 2;
+}
+.formfield {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    align-items: center;
+    gap: var(--space-1);
+    width: 100%;
+}
+
+/* for placing icon inside the input fields */
+.field-input {
+    position: relative;
+    width: 75%;
+}
+.field-input input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px 12px 12px 40px;
+}
+
+.field-input i {
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--color-primary);
+}
+/* end */
+input[type='checkbox'] {
+    width: auto;
+}
+
+form fieldset {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-style: none;
+    padding: 0;
+}
+
+/* ________________________________Buttons______________________________________ */
+
+form .btn {
+    justify-content: center;
+    background-color: var(--color-formbtn-bg);
+    width: 70%;
+    color: var(--color-formbtn-text);
+    font-size: var(--fs-btn);
+    padding: calc(var(--space-1) / 2);
+    margin: 0 var(--space-3);
+}
+
+.btn {
+    display: flex;
+    background-color: var(--color-btn-bg);
+    border-radius: var(--radius-3);
+    padding: var(--space-3);
+    font-size: var(--fs-btn);
+    color: var(--color-btn-text);
+    justify-content: space-between;
+}
+
+.content .btn {
+    margin: var(--space-5);
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
