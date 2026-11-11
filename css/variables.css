@@ -50,7 +50,7 @@
     --fs-h1: var(--space-4);
     --fs-h2: var(--space-3);
     --fs-btn: calc(var(--space-2) * 1.5);
-    --fs-p: calc(var(--space-2) * 1.25);
+    --fs-p: calc(var(--space-1) * 1.5);
 
     /*---------------------------- Spacing------------------- */
 
